@@ -1,0 +1,30 @@
+
+.footer{
+	background-color:#53c42f;
+	text-align:center;
+	padding:65px 0 15px 0;
+	border-top:2px solid #2aaf00;
+	color:#ffffff;
+  bottom: 0;
+	left: 0;
+	width:100%;
+	margin:0px;
+	height:120px;
+	position:absolute;
+}
+
+@media (max-width: 375px) {
+	.footer{
+		min-width:375px;
+	}
+}
+
+.footer .disclaimer{
+	color:white;
+	font-size:12px;
+	margin-top:5px;
+}
+
+.disclaimer a{
+	color:inherit;
+}

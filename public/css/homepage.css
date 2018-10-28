@@ -1,0 +1,317 @@
+.container{
+	height:60%;
+	width:100%;
+	margin-top:0px;
+}
+
+.header-content{
+	font-family:Nexa;
+	background-image: url("/media/images/dna.jpg");
+	background-size: 100%;
+	width:100%;
+	letter-spacing:-.1em;
+}
+
+.header-text{
+	text-align:center;
+	max-width:800px;
+}
+
+.header-left{
+	float:left;
+}
+
+.header-upper{
+	display:table;
+	min-width: 380px;
+	margin-top:0;
+}
+
+.buy-button{
+	font-size:22px;
+	color:#FFFFFF;
+	padding:5px 15px;
+	background-color: #53c42f;
+	font-family: 'Nexa';
+	font-weight:bold;
+	border-radius:5px;
+	width:30%;
+	margin-bottom:10%;
+	letter-spacing:.1px;
+}
+
+.buy-button a {
+	text-decoration:none !important;
+	color:white;
+}
+
+
+.header-text h2{
+ font-size:25pt;
+}
+
+.header-text{
+ margin-top:20%;
+}
+
+.dnage h3{
+	font-size:16px;
+}
+
+@media(max-width:450px){
+	.buy-button{
+		font-size:12px !important;
+		width:40%;
+	}
+	.header-text h2{
+	 font-size:24px;
+ }
+}
+
+@media(max-width:550px){
+	.header-upper{
+		margin:0% 0 5% 0 !important;
+	}
+	.buy-button{
+		font-size:16px;
+		width:40%;
+	}
+	.container{
+		margin-top:15px;
+	}
+	.body-container{
+		display:none;
+	}
+}
+
+@media(max-width:768px){
+	.header-upper{
+		margin:2% 0 5% 0;
+	}
+	.buy-button{
+		font-size:16px;
+	}
+	.header-text{
+		margin-top:15%;
+	}
+
+}
+
+
+
+@media (min-width: 768px) {
+	.header-content{
+		min-width:768px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.header-text h2{
+	 font-size:3.8vw;
+ }
+
+ .header-text{
+	 margin-top:10%;
+ }
+
+ .header-upper{
+	 margin:12% 0 5% 0;
+ }
+
+ .prod-img{
+	 background-image:none;
+ }
+
+ .buy-button{
+ 	font-size:2.5vw;
+ }
+
+ .dnage h3{
+	 font-size:24px;
+ }
+
+}
+
+
+@media (min-width: 992px) {
+  .container {
+		width: 100%;
+		height:100%;
+  }
+   .header-text h2{
+		font-size:3.9vw;
+  }
+
+  .header-text{
+		margin-top:20%;
+	}
+
+	.header-upper{
+		margin:3% 8% 3% 8%;
+	}
+
+	.buy-button{
+	 font-size:1.8vw;
+	 	width:25%;
+	}
+
+	.dnage h3{
+		font-size:3vw;
+	}
+
+}
+@media (min-width: 1200px) {
+
+  .header-text h2{
+		font-size:3.4vw;
+  }
+
+  .header-text{
+		margin:30% 0 10% 0;
+	}
+
+	.header-upper{
+		margin:0% 10%;
+	}
+
+	.prod-img{
+		width:26vw;
+		padding-bottom:45%;
+	}
+
+	.buy-button{
+	 font-size:1.5vw;
+	 width:18%;
+	}
+
+	.dnage h3{
+		font-size:2.6vw;
+	}
+
+}
+
+@media (min-width: 1400px) {
+	.dnage h3{
+		font-size:1.6vw;
+	}}
+
+body .row{
+	max-width:1100px;
+	margin:0px;
+}
+
+body .offset{
+	width:100%;
+	background-color:#ececec;
+}
+
+body .content{
+	padding:35px 30px;
+	font-size:16px;
+	max-width:440px;
+	font-style:italic;
+}
+
+.body-container{
+	max-width:1300px;
+	height:auto;
+}
+
+.young-old-bg{
+	background-image:url(/media/images/younger-older.png);
+	background-size:100%;
+	background-repeat: no-repeat;
+}
+
+.dnage{
+	height:auto;
+	padding-top:15%;
+	margin-bottom:-20px;
+}
+
+.dnage img{
+	max-width:350px;
+	width:25%;
+}
+
+.dnage h3{
+	padding-bottom:5%;
+}
+
+
+.icon-section{
+	padding:60px 0;
+	max-width:250px;
+}
+
+
+.miditem:before, .miditem:after {
+    content: '';
+    height: 60%;
+    width: 1px;
+		top:90px;
+    position: absolute;
+    background-color: #d2c5c5;
+}
+
+.miditem:before {
+    left: 0;
+}
+
+.miditem:after {
+    right: 0;
+}
+
+.icon-section p{
+	text-align:justify;
+}
+
+@media(max-width:550px){
+	.icon-section img{
+		width:110px;
+	}
+}
+
+@media (max-width: 768px) {
+	.icon-section{
+		padding:0px 0;
+	}
+
+	body .content{
+		font-size:14px;
+	}
+
+}
+
+#disclaimer{
+	margin-top:0px;
+}
+
+.slogan{
+	font-size:16px;
+	width:80%;
+	line-height:1.4;
+}
+
+@media(min-width:992px){
+	.slogan{
+		font-size:18px;
+	}
+}
+
+@media (min-width:1200px) {
+	.slogan{
+		font-size:20px;
+	}
+}
+
+body hr{
+	width:150px;
+	height:5px;
+	margin: 15px 0 0 0;
+	background-color:#53c42f;
+}
+
+h5{
+	font-size:18px;
+	font-weight:bold;
+}
